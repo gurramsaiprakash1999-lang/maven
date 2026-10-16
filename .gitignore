@@ -1,0 +1,16 @@
+# Terraform local folders and state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Sensitive SSH Keys
+*.pem
+
+# Maven build targets
+target/
+.idea/
+.settings/
+.classpath
+.project
